@@ -4,7 +4,7 @@ include 'Configuration/getQuery.php';
 function loadDatafromRanch($sources, $names) {
 	// Concurrently receive sources from DataRanch
 	$s = microtime ( true );
-	$GLOBALS["names"] = $names;
+	$GLOBALS ["names"] = $names;
 	$GLOBALS ["loadtime"] = "<br />total time: " . round ( microtime ( true ) - $s, 4 ) . " seconds";
 	// Class to run parallel GET requests and return the transfer
 	class ParallelGet {
@@ -15,6 +15,7 @@ function loadDatafromRanch($sources, $names) {
 			foreach ( $urls as $i => $url ) {
 				$ch [$i] = curl_init ( $url );
 				curl_setopt ( $ch [$i], CURLOPT_RETURNTRANSFER, 1 );
+				curl_setopt ( $ch [$i], CURLOPT_USERAGENT, 'Archiver.co Category Suggest - support@worldlifenetworks.com' );
 				curl_multi_add_handle ( $mh, $ch [$i] );
 			}
 			
@@ -56,11 +57,11 @@ function loadDatafromRanch($sources, $names) {
 			curl_multi_close ( $mh );
 			
 			// Print the response data
-			$i=0;
-			foreach ($GLOBALS["names"] as $name){
-					
-				$GLOBALS[$name]=$res[$i];
-				$i++;
+			$i = 0;
+			foreach ( $GLOBALS ["names"] as $name ) {
+				
+				$GLOBALS [$name] = $res [$i];
+				$i ++;
 			}
 		}
 	}

@@ -4,6 +4,7 @@ function DisplayListOfBits($ListDataString) {
 	//var_dump ( $ListDataArray );
 	foreach ( $ListDataArray as $ListDataItem ) {
 		if ($ListDataItem->title) {
+			$exists=1;
 			?>
 <div class="ItemContainer">
 	<div class="TextContainer">
@@ -17,5 +18,15 @@ function DisplayListOfBits($ListDataString) {
 <?php
 		}
 	}
+	if (!$exists){
+?>
+<div class="ItemContainer">
+	<div class="TextContainer">
+	Aw Shucks, nothin here :(
+	</div>
+	</div>
+<?php 
+}
+
 }
 ?>

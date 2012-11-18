@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.ListItemTitle {
+	font-size: 18px;
+}
+
+.TextContainer {
+	float: left;
+	width: 505px;
+	padding: 5px;
+}
+
+.ImageContainer {
+	float: left;
+	width: 75px;
+	padding: 5px;
+}
+
+.ItemContainer {
+	width: 600px;
+	clear: both;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.ListImageAttributes {
+	width: 75px;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+.SearchName {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.SearchTitle {
+	margin: 0px;
+	padding: 5px;
+}

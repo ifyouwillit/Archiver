@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+.AllPanes {
+	width: 1120px;
+	clear: both;
+}
+
+.LeftPane {
+	width: 200px;
+	float: left;
+	background-color: #5E0002;
+}
+
+.RightPane {
+	width: 300px;
+	float: left;
+	margin-left: 10px;
+}
+
+.MenuPane {
+	clear:both;
+background-color:#9E0004;
+width:100%;
+margin-bottom:10px;
+}
+
+.MenuPadding {
+	padding:5px;
+color:#FFFFFF;
+}
+.MiddlePane {
+	width: 600px;
+	float: left;
+	margin-left: 10px;
+	background-color: #FFFFFF;
+}
+
+.LeftPanePadding {
+	padding: 10px;
+	width: 100%;
+}
