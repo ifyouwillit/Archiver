@@ -9,7 +9,6 @@
 	width: 200px;
 	float: left;
 	background-color: #5E0002;
-
 }
 
 .RightPane {
@@ -48,5 +47,5 @@
 	padding: 10px;
 	width: 180px;
 	word-wrap: break-word;
-color:#FFFFFF;
+	color: #FFFFFF;
 }
