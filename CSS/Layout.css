@@ -9,6 +9,7 @@
 	width: 200px;
 	float: left;
 	background-color: #5E0002;
+
 }
 
 .RightPane {
@@ -18,16 +19,24 @@
 }
 
 .MenuPane {
-	clear:both;
-background-color:#9E0004;
-width:100%;
-margin-bottom:10px;
+	clear: both;
+	background-color: #9E0004;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.LoginPane {
+	clear: both;
+	background-color: #000000;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .MenuPadding {
-	padding:5px;
-color:#FFFFFF;
+	padding: 5px;
+	color: #FFFFFF;
 }
+
 .MiddlePane {
 	width: 600px;
 	float: left;
@@ -37,5 +46,7 @@ color:#FFFFFF;
 
 .LeftPanePadding {
 	padding: 10px;
-	width: 100%;
+	width: 180px;
+	word-wrap: break-word;
+color:#FFFFFF;
 }

@@ -1,11 +1,24 @@
 @CHARSET "UTF-8";
 
 body {
-	font-family:Arial;
-	background-color:#4a0002;
+	font-family: Arial;
+	background-color: #4a0002;
 }
 
 .WikiLinks {
-	color:#FFFFFF;
+	color: #FFFFFF;
+	word-wrap: break-word;
 }
 
+.SearchBox {
+	background-color: #520002;
+	width: 100%;
+}
+
+.SearchBar {
+	line-height: 26px;
+	font-size: 16px;
+	color: #520002;
+	margin: 10px;
+	width: 280px;
+}
