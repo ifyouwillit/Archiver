@@ -1,0 +1,26 @@
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.open("GET","http://dataranch.net/archiver/search.xml?q=<?=$_GET['q']?>",false);
+  xmlhttp.send();
+  xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table border='1'>");
+var x=xmlDoc.getElementsByTagName("entry");
+for (i=0;i<x.length;i++)
+  { 
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+  }
+  document.write("</table>");
+</script>
+
+		
+		

@@ -9,6 +9,14 @@
 	width: 200px;
 	float: left;
 	background-color: #5E0002;
+
+}
+
+.LeftPaneProfile {
+	width: 300px;
+	float: left;
+	background-color: #5E0002;
+
 }
 
 .RightPane {
@@ -43,9 +51,26 @@
 	background-color: #FFFFFF;
 }
 
+.MiddlePaneProfile {
+	width: 810px;
+	float: left;
+	margin-left: 10px;
+	background-color: #FFFFFF;
+}
+
+.MiddlePaneBitline {
+	width: 810px;
+	float: left;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+}
+
 .LeftPanePadding {
 	padding: 10px;
 	width: 180px;
 	word-wrap: break-word;
-	color: #FFFFFF;
+color:#FFFFFF;
+}
+.LoginBlock {
+	float:right;
 }

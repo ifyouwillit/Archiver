@@ -10,15 +10,53 @@ body {
 	word-wrap: break-word;
 }
 
+.WikiLinksBold {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+	word-wrap: break-word;
+}
+
 .SearchBox {
-	background-color: #520002;
+	background-color: #111111;
 	width: 100%;
 }
 
 .SearchBar {
 	line-height: 26px;
 	font-size: 16px;
-	color: #520002;
+	color: #5e0002;
+	font-weight: bold; margin : 10px;
+	width: 270px;
 	margin: 10px;
-	width: 280px;
+}
+
+.ContentItem {
+	clear: both;
+	background-color: #111111;
+	color: white;
+	padding: 4px;
+	margin: 5px;
+}
+
+.LoginButtons {
+	float: right;
+	padding: 4px;
+	margin: 4px;
+	border-color: #176da4;
+	background-color: #3c8abe;
+	border-style: solid;
+	border-width: 2px;
+font-size:12px;
+}
+.LoginButtonsBold {
+	float: right;
+	padding: 5px;
+	margin-left: 3px;
+margin-top:2px;
+	border-color: #176da4;
+	background-color: #3c8abe;
+	border-style: solid;
+	border-width: 2px;
+font-size:14px;
 }

@@ -1,0 +1,88 @@
+#sddm {
+	margin: 0;
+	padding: 0;
+	z-index: 30
+}
+
+#sddm li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial
+}
+
+#sddm li a {
+	display: block;
+	margin: 5px;
+	padding: 3px;
+	background: darkred;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+#sddm li a:hover {
+	background: #333
+}
+
+#sddm div {
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	border: 5px solid darkred;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 3px 5px 10px #000000;
+	-webkit-box-shadow: 3px 5px 10px #000000;
+	box-shadow: 3px 5px 10px #000000;
+}
+
+#sddm div a {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #000000;
+	color: #ffffff;
+	font: 13px arial
+}
+
+#sddm div a:hover {
+	background: #333;
+	color: #FFF
+}
+
+.topbutton {
+	padding: 7px;
+	background-color: #5e0002;
+	color: #FFFFFF;
+	float: left;
+	margin: 3px;
+}
+
+.topbutton1 {
+	padding: 7px;
+	background-color: #d13434;
+	color: #FFFFFF;
+	float: left;
+	margin: 3px;
+}
+
+.toplink {
+	color: white;
+	text-decoration: none;
+}

@@ -2,11 +2,35 @@
 
 .ListItemTitle {
 	font-size: 18px;
+font-weight:bold;
+clear: both;
+}
+
+.ListItemDescription {
+	font-size: 14px;
+    font-style:italic;
+clear: both;
+}
+
+.ListItemOtherInfo {
+	font-size:14px;
+padding-top:10px;
+clear: both;
+}
+
+.Highlight{
+	background-color:#DDDDDD;
 }
 
 .TextContainer {
 	float: left;
 	width: 505px;
+	padding: 5px;
+}
+
+.TextContainerProfile {
+	float: left;
+	width: 705px;
 	padding: 5px;
 }
 
@@ -17,12 +41,23 @@
 }
 
 .ItemContainer {
-	width: 600px;
+	width: 100%;
 	clear: both;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-top: 0px;
 }
 
+.CloudImageContainer{
+	float:left;
+margin:5px;
+width:75px;
+}
+.BitContainer{
+	font-size:60px;
+} 
+.CloudImageAttributes{
+	width:75px;
+}
 .ListImageAttributes {
 	width: 75px;
 	border-width: 2px;
@@ -32,9 +67,14 @@
 .SearchName {
 	background-color: #000000;
 	color: #FFFFFF;
+clear:both;
 }
 
 .SearchTitle {
 	margin: 0px;
 	padding: 5px;
+float:left;
+}
+.CategoryHeading {
+	padding:0px;margin:0px;font-size:20px;
 }

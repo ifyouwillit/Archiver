@@ -15,6 +15,7 @@ function loadDatafromRanch($sources, $names) {
 			foreach ( $urls as $i => $url ) {
 				$ch [$i] = curl_init ( $url );
 				curl_setopt ( $ch [$i], CURLOPT_RETURNTRANSFER, 1 );
+				curl_setopt ( $ch [$i], CURLOPT_FRESH_CONNECT, 1);
 				curl_setopt ( $ch [$i], CURLOPT_USERAGENT, 'Archiver.co Category Suggest - support@worldlifenetworks.com' );
 				curl_multi_add_handle ( $mh, $ch [$i] );
 			}
